@@ -48,7 +48,7 @@ export default function RightCard() {
               <div className="btxt">Flexible payment optioins including no-cost EMI are available.</div>
             </div>
             <Card.Body className='joinnow'>
-                <button className='bt1 jointxt'>Join Now&nbsp;<i class="fa-solid fa-arrow-right"></i></button>
+                <button className='bt1 btn1 jointxt'>Join Now&nbsp;<i class="fa-solid fa-arrow-right"></i></button>
             </Card.Body>
         </Card>
     )

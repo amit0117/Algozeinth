@@ -25,11 +25,16 @@ function Header() {
             <div className='Rectbb'>
             <div className='Rectb'>
              <Rectangle></Rectangle>
+             <div className='hehe'>
              <Rectangle></Rectangle>
+             </div>
+           
             </div>
             <div className='Rectb'>
              <Rectangle></Rectangle>
+             <div className='hehe'>
              <Rectangle></Rectangle>
+             </div>
             </div>
             </div>
             </div>
