@@ -1,0 +1,375 @@
+.header{
+    position: absolute;
+    width : 100%;
+    height : 35rem;
+   
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(270deg, #05445E 0%, #022534 100%);
+}
+.lheader{
+    position: relative;
+    flex:50%;
+}
+.rheader{
+    flex : 50%;
+    position: relative;
+}
+.mlogo{
+position: absolute;
+height:  35rem;
+width: 35rem;
+top:0rem;
+left: calc(50% - 15rem);
+}
+.lbox{
+    position: relative;
+}
+.temp{
+    position: absolute;
+top:7rem;
+left : 2rem;
+}
+.heading{
+  
+width: 759px;
+height: 70.33px;
+
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 800;
+font-size: 72px;
+line-height: 72px;
+margin-left: 2rem;
+/* or 100% */
+
+letter-spacing: -0.03em;
+
+color: #FFFFFF;
+}
+.txt{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 40px;
+margin-left: 2rem;
+/* or 167% */
+
+letter-spacing: -0.03em;
+
+color: #FFFFFF;
+}
+.buttons{
+    width: 70%;
+    position: relative;
+    display: flex;
+    top:0.5rem;
+    justify-content: space-between;
+}
+.bt1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    gap: 10px;
+    margin-left: 2rem;
+     
+    width: 235px;
+    height: 64px;
+    
+    
+    background: linear-gradient(90.76deg, #FFFFFF 0%, #DFF6FF 144.63%);
+    border-radius: 8px;
+}
+.btxt1{
+    width: 125px;
+    height: 48px;
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 48px;
+    /* identical to box height, or 218% */
+    
+    text-align: center;
+    letter-spacing: -0.03em;
+    
+    color: #05445E;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.bt2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    gap: 10px;
+    
+  
+    width: 235px;
+    height: 64px;
+    
+    
+    background: linear-gradient(94.24deg, #033042 -0.03%, #005C83 99.97%);
+    border-radius: 8px;
+}
+.btxt2{
+    width: 164px;
+    height: 48px;
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 48px;
+    /* identical to box height, or 218% */
+    
+    text-align: center;
+    letter-spacing: -0.03em;
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.Rectbb{
+    margin: 0rem;
+}
+.Rectb{
+    /* justify-content: space-between; */
+    margin-left: .6rem;
+    margin-top: .5rem;
+    display: flex;
+    
+}
+.Rect{
+margin : 0.5rem;   
+margin-right: 0rem;
+margin-left: 0.7rem;
+background: linear-gradient(270deg, #05445E 0%, #022534 100%);
+box-sizing: border-box;
+width: 3rem;
+height: 3rem;
+border-radius:8px;
+border: 1px solid whitesmoke;
+border-bottom: none;
+
+}
+.footer{
+    position: relative;
+    top:35rem;
+    display: flex;
+    height: 50rem;
+    background-color: aliceblue;
+}
+.lfooter{
+position: relative;
+flex: 50%;
+flex-wrap: wrap;
+margin-left: 5rem;
+margin-top: 5rem;
+}
+.rfooter{
+position: relative;
+flex: 50%;
+}
+.text{
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 30rem;
+font-size: 4rem;
+line-height: 4rem;
+/* or 141% */
+
+letter-spacing: -0.03em;
+
+color: #000000;
+}
+.earn{
+color:#05445E ;
+}
+.lefttxt{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 20rem;
+font-size: 1rem;
+line-height: 1.5rem;
+/* or 167% */
+
+letter-spacing: -0.03em;
+
+color: #000000dd;
+margin-top: 2rem;
+}
+.bottombox{
+    margin-top: 6rem;
+    
+}
+.row1{
+    display: flex;
+    width: 200px;
+    height: 50px;
+}
+.boxrect{
+    box-sizing: border-box;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 6px;
+    border:3px#05445E ;
+    background: #D9D9D9;
+}
+.uppertxt{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 1rem;
+line-height: 2rem;
+margin-left: 1rem;
+margin-top: 0.5rem;
+/* or 112% */
+
+letter-spacing: -0.03em;
+
+color: #000000;
+display: inline;
+}
+.lowertxt{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 600;
+font-size: .5rem;
+line-height: 2rem;
+/* or 112% */
+margin-left: 1rem;
+letter-spacing: -0.03em;
+margin-top: -.7rem;
+
+color: #000000;
+}
+.coltxt{
+    display: inline-table;
+    margin-top: 0.2rem;
+}
+.col1{
+    display: flex;
+    width: 100%;
+    flex-flow: row;
+    
+}
+
+.row2{
+    margin-left: 1rem;
+    display: flex;
+}
+.right{
+    margin-bottom: 3rem;
+    margin-top: 5rem;
+    width: 80%;
+    margin-left: 2rem;
+    box-shadow: 5px 8px 8px 0 rgba(0, 0, 0, 0.7), -5px -10px 20px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+
+.img1{
+    display: flex;
+    position: relative;
+    width: 60%;
+    margin-top: 3rem;
+    padding: 1rem;
+}
+
+.image1{
+    width: 50%;
+    height: 10rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    /* display: inline; */
+    margin: auto;
+}
+.image2{
+    width: 50%;
+    height: 15rem;
+    margin: auto;
+    padding: 0.5rem;
+    /* display: inline; */
+}
+.bottom{
+    width:100%;
+    height: 5rem;
+    background: linear-gradient(270deg, #05445E 0%, #022534 100%);
+    margin-top: -1rem;
+}
+.bRect{
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+    margin-right: 0rem;
+    background: linear-gradient(270deg, #05445E 0%, #022534 100%);
+    box-sizing: border-box;
+    width: 3rem;
+    height: 3rem;
+    border-radius:8px;
+    border: 1px solid whitesmoke;
+    border-bottom: none;
+    padding: 1.2rem;
+}
+
+.btxt{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 1rem;
+line-height: 1rem;
+letter-spacing: -0.03em;
+/* or 167% */
+margin-left: 5.3rem;
+margin-top: -1.5rem;
+
+color: #FFFFFF;
+
+}
+.jointxt{
+    width: 80%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 48px;
+    /* identical to box height, or 218% */
+    
+    text-align: center;
+    letter-spacing: -0.03em;
+    
+    color: #05445E;
+     flex: none;
+    order: 0;
+    flex-grow: 0;   
+}
+.btnjoin{
+    width:50%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.joinnow{
+    width: 100%;
+    margin: auto;
+    background: linear-gradient(270deg, #05445E 0%, #022534 100%);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
